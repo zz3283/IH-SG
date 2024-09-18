@@ -1,0 +1,15 @@
+MODELS_PATH: "/mnt/data/ZJ/IS2AM/harmonization_exps/models"
+EXPS_PATH: "/mnt/data/ZJ/IS2AM/harmonization_exps/" #//harmonization_exps
+
+#HFLICKR_PATH: "/mnt/data/ZJ/dataset/IHD/HFlickr"
+#HDAY2NIGHT_PATH: "/mnt/data/ZJ/dataset/IHD/Hday2night"
+#HCOCO_PATH: "/mnt/data/ZJ/dataset/IHD/HCOCO"
+HADOBE5K_PATH: "/mnt/data/ZJ/dataset/IHD/HAdobe5k"
+#mydata_PATH: "/mnt/data/ZJ/dataset/mydata"
+
+IMAGENET_PRETRAINED_MODELS:
+  HRNETV2_W18_SMALL: "./pretrained/hrnet_w18_small_model_v2.pth"
+  HRNETV2_W18: "./pretrained/hrnetv2_w18_imagenet_pretrained.pth"
+  HRNETV2_W32: "./pretrained/hrnetv2_w32_imagenet_pretrained.pth"
+  HRNETV2_W40: "./pretrained/hrnetv2_w40_imagenet_pretrained.pth"
+  HRNETV2_W48: "./pretrained/hrnetv2_w48_imagenet_pretrained.pth"
